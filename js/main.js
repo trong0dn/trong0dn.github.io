@@ -78,7 +78,7 @@
     }, {offset: '80%'});
 
 
-    // Hoobies carousel
+    // Hobbies carousel
     $(".hobbies-carousel").owlCarousel({
         center: true,
         autoplay: true,
