@@ -2,86 +2,684 @@
 <html lang="en-US">
   <head>
     <meta charset='utf-8'>
+    <title>Portfolio | Trong Nguyen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Welcome to GitHub Pages | trong0dn.github.io</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Welcome to GitHub Pages" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Trong’s Portfolio site" />
-<meta property="og:description" content="Trong’s Portfolio site" />
-<link rel="canonical" href="https://trong0dn.github.io/" />
-<meta property="og:url" content="https://trong0dn.github.io/" />
-<meta property="og:site_name" content="trong0dn.github.io" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Welcome to GitHub Pages" />
-<script type="application/ld+json">
-{"description":"Trong’s Portfolio site","url":"https://trong0dn.github.io/","headline":"Welcome to GitHub Pages","@type":"WebSite","name":"trong0dn.github.io","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+    <!-- Begin SEO tag -->
+    <meta name="keywords" content="portfolio, resume">
+    <meta name="description" content="Trong's Developer Portfolio">
+    <meta property="og:title" content="Trong's Developer Portfolio">
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Trong's Developer Portfolio">
+    <meta property="og:description" content="Trong's Developer Portfolio">
+    <link rel="canonical" href="https://trong0dn.github.io/" />
+    <meta property="og:url" content="https://trong0dn.github.io/">
+    <meta property="og:site_name" content="trong0dn.github.io">
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Trong's Developer Portfolio">
+    <script type="application/ld+json">{
+      "description":"Trong's Developer Portfolio",
+      "url":"https://trong0dn.github.io/",
+      "headline":"Trong's Developer Portfolio",
+      "@type":"WebSite",
+      "name":"trong0dn.github.io",
+      "@context":"https://schema.org"
+    }
+    </script>
+    <!-- End SEO tag -->
 
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="#">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="lib/animate/animate.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.min.css">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+          <div class="container-fluid">
+              <a href="index.html" class="navbar-brand">Dev Portfolio</a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
 
-    <header>
-      <div class="container">
-        <a id="a-title" href="/">
-          <h1>trong0dn.github.io</h1>
-        </a>
-        <h2>Trong's Portfolio site</h2>
-
-        <section id="downloads">
-          
-          <a href="https://github.com/trong0dn/trong0dn.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                  <div class="navbar-nav ml-auto">
+                      <a href="#home" class="nav-item nav-link active">Home</a>
+                      <a href="#about" class="nav-item nav-link">About</a>
+                      <a href="#skill" class="nav-item nav-link">Skill</a>
+                      <a href="#experience" class="nav-item nav-link">Experience</a>
+                      <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                      <a href="#hobbies" class="nav-item nav-link">Hobbies</a>
+                      <a href="#volunteer" class="nav-item nav-link">Volunteer</a>
+                      <a href="#contact" class="nav-item nav-link">Contact</a>
+                      <a href="#blog" class="nav-item nav-link">Blog</a>
+                  </div>
+              </div>
+          </div>
       </div>
-    </header>
+      <!-- Nav Bar End -->
 
-    <div class="container">
-      <section id="main_content">
-        <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
+      <!-- Hero Start -->
+      <div class="hero" id="home">
+          <div class="container-fluid">
+              <div class="row align-items-center">
+                  <div class="col-sm-12 col-md-6">
+                      <div class="hero-content">
+                          <div class="hero-text">
+                              <p>whoami</p>
+                              <h1>Trong Nguyen</h1>
+                              <h2></h2>
+                              <div class="typed-text">Software Developer, Front End Developer, Apps Developer, Web Developer</div>
+                          </div>
+                          <div class="hero-btn">
+                              <a class="btn" href="">Hire Me</a>
+                              <a class="btn" href="">Contact Me</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 d-none d-md-block">
+                      <div class="hero-image">
+                          <img src="img/hero.gif" alt="Hero Image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Hero End -->
 
-<p>You can use the <a href="https://github.com/trong0dn/trong0dn.github.io/edit/main/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-
-<h3 id="markdown">Markdown</h3>
-
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax highlighted code block
-
-<span class="gh"># Header 1</span>
-<span class="gu">## Header 2</span>
-<span class="gu">### Header 3</span>
-<span class="p">
--</span> Bulleted
-<span class="p">-</span> List
-<span class="p">
-1.</span> Numbered
-<span class="p">2.</span> List
-
-<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text
-
-<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-
-<h3 id="jekyll-themes">Jekyll Themes</h3>
-
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/trong0dn/trong0dn.github.io/settings/pages">repository settings</a>. The name of this theme is saved in the Jekyll <code class="language-plaintext highlighter-rouge">_config.yml</code> configuration file.</p>
-
-<h3 id="support-or-contact">Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://docs.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://support.github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      </section>
+      <!-- About Start -->
+      <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="img/about.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header text-left">
+                            <p>Learn About Me</p>
+                            <h2>5 Years Experience</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Third year Software Engineering student at <a href="https://carleton.ca/sce/beng-software/">Carleton University</a>. 
+                                
+                            </p>
+                        </div>
+                        <div class="skills">
+                            <div class="skill-name">
+                                <p>Software Development</p><p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Front End Development</p><p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Apps Development</p><p>70%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Web Development</p><p>75%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <a class="btn" href="assets/ResumeTrong.pdf">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- About End -->
 
-    
+    <!-- Skills Start -->
+    <div class="skill" id="skill">
+      <div class="container">
+          <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>What I do</p>
+              <h2>Programming Languages</h2>
+          </div>
+          <div class="row">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                  <div class="skill-item">
+                      <div class="skill-icon">
+                          <i class="fab fa-python"></i>
+                      </div>
+                      <div class="skill-text">
+                          <h3>Python</h3>
+                          <p>
+                              My go-to language for any initial problem and challenges. <br/>
+                              Project: <a href="https://github.com/trong0dn/ImageFilters">ImageFilters</a>.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="skill-item">
+                      <div class="skill-icon">
+                          <i class="fab fa-java"></i>
+                      </div>
+                      <div class="skill-text">
+                          <h3>Java</h3>
+                          <p>
+                            Like a cup of coffee, my relationship ebbs and flows with this language. <br/> 
+                            Project: <a href="https://github.com/trong0dn/Tea-Shoppe">Tea-Shoppe</a>.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="skill-item">
+                      <div class="skill-icon">
+                          <i class="fab fa-linux"></i>
+                      </div>
+                      <div class="skill-text">
+                          <h3>Linux/C</h3>
+                          <p>
+                              Love it or hate it, not my best but definitely powerful when needed. <br/>
+                              Project: <a href="https://github.com/trong0dn/ATM-ConCurrencies">ATM-ConCurrencies</a>.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="skill-item">
+                      <div class="skill-icon">
+                          <i class="fas fa-gem"></i>
+                      </div>
+                      <div class="skill-text">
+                          <h3>Ruby</h3>
+                          <p>
+                              Currently learning this language and doing a project on it. Standby.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- Skills End -->
+
+    <!-- Experience Start -->
+    <div class="experience" id="experience">
+      <div class="container">
+          <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>My Employment History</p>
+              <h2>Working Experience</h2>
+          </header>
+          <div class="timeline">
+              <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">May 2021 - Aug 2021</div>
+                      <h2>Technical Business Analyst and Developer</h2>
+                      <h4>Jumping Elephants | Ottawa, ON</h4>
+                      <ul>
+                        <li>Accomplishing software development and product management goals using DevOps 
+                            agile workflow in collaboration with a diverse team</li>
+                        <li>Contributing technical expertise and development of intranet and virtual workspace environment 
+                            using Microsoft PowerApps with underlying CSS frameworks such as Bootstrap and Liquid</li> 
+                      </ul>
+                  </div>
+              </div>
+              <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">Jul 2018 - Present</div>
+                      <h2>Transportation Worker</h2>
+                      <h4>The Ottawa Hospital | Ottawa, ON</h4>
+                      <ul>
+                        <li>Interacted with digital Health Information System to prioritize the implementation and
+                            optimization of the workflow of clinical operations for consistent patient care</li>
+                        <li>Delivering service excellence to internal and external patients, ensuring the use of information
+                            and services that are barrier-free and accessible for persons with disabilities</li> 
+                      </ul>
+                  </div>
+              </div>
+              <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">Apr 2018 - Present</div>
+                      <h2>First Aid Instructor</h2>
+                      <h4>St. John Ambulance | Ottawa, ON</h4>
+                      <ul>
+                        <li>Facilitate CPR/First Aid/AED training courses, test individual skills, and certify students who
+                            successfully demonstrate adequate knowledge and performance of skills</li>
+                        <li>Developed and updated customized curriculum, reference guides, and materials, including
+                            project-specific training and PowerPoint presentations</li> 
+                      </ul>
+                  </div>
+              </div>
+              <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">Jan 2021 - Apr 2021</div>
+                      <h2>Undergraduate Teaching Assistant (Data Management)</h2>
+                      <h4>Carleton University | Ottawa, ON</h4>
+                      <ul>
+                        <li>Assisted student in developing Python code and projects</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">Sep 2015 - Mar 2017</div>
+                      <h2>Graduate Research & Teaching Assistant (Biology/Biochemisty)</h2>
+                      <h4>Carleton University | Ottawa, ON</h4>
+                      <ul>
+                        <li>Analyze data to synthesize meaningful results that summarize findings to experts and lay
+                            audience in a comprehensive format</li>
+                        <li>Instruct students through constructive feedback and detailed rebuttal of inquiry in 
+                            addition to quality checking student performance via a formative and summative assessment</li> 
+                      </ul>
+                  </div>
+              </div>
+              <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                  <div class="timeline-text">
+                      <div class="timeline-date">May 2013 - Aug 2013</div>
+                      <h2>Laboratory Technician</h2>
+                      <h4>Canadian Food Inspection Agency | Ottawa, ON</h4>
+                      <ul>
+                        <li>Invoke serological protocol in the safeguarding of Canada's livestock and maintain balance
+                            between international and domestic markets</li>
+                        <li>Optimization of an enzyme-linked immunosorbent assay (ELISA) detection protocol for
+                            serogroups of Escherichia coli</li> 
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Job Experience End -->
+  
+  <!-- Banner Start -->
+  <div class="banner wow zoomIn" data-wow-delay="0.1s">
+      <div class="container">
+          <div class="section-header text-center">
+              <p>Watch me code</p>
+              <h2>Coding <span>Youtube</span> channel</h2>
+          </div>
+          <div class="container banner-text">
+              <p>
+                  Watch me attempt a walkthrough of the daily <a href="https://leetcode.com/">LeetCode</a> challenges. Stumbling my way through coding solutions and explaining my though process.
+              </p>
+              <img src="https://leetcode.com/static/images/LeetCode_Sharing.png" alt="LeetCode">
+              <a class="btn" href="https://www.youtube.com/channel/UCisFyyuGQyco-ZCZHlOJoVw">Youtube</a>
+          </div>
+      </div>
+  </div>
+  <!-- Banner End -->
+
+  <!-- Portfolio Start -->
+  <div class="portfolio" id="portfolio">
+      <div class="container">
+          <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>My Portfolio</p>
+              <h2>Applied Projects</h2>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <ul id="portfolio-filter">
+                      <li data-filter="*" class="filter-active">All</li>
+                      <li data-filter=".filter-1">Python</li>
+                      <li data-filter=".filter-2">Java</li>
+                      <li data-filter=".filter-3">C</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row portfolio-container">
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.0s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://user-images.githubusercontent.com/55768917/117087301-071e1180-ad1d-11eb-8fb0-114811c81394.png" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>eCommerce Website</h3>
+                          <a class="btn" href="https://user-images.githubusercontent.com/55768917/117087301-071e1180-ad1d-11eb-8fb0-114811c81394.png" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://user-images.githubusercontent.com/55768917/117480144-36a46800-af2f-11eb-9e79-fc7a12f217a3.jpg" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>Concurrent Processes</h3>
+                          <a class="btn" href="https://user-images.githubusercontent.com/55768917/117480144-36a46800-af2f-11eb-9e79-fc7a12f217a3.jpg" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://raw.githubusercontent.com/trong0dn/Kernel-Simulator/main/statediagrams.jpg" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>Kernel Simulator</h3>
+                          <a class="btn" href="https://raw.githubusercontent.com/trong0dn/Kernel-Simulator/main/statediagrams.jpg" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://user-images.githubusercontent.com/55768917/120088024-ccf52500-c0ba-11eb-92ef-443aa1b6e073.jpg" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>Color Palette Generator</h3>
+                          <a class="btn" href="https://user-images.githubusercontent.com/55768917/120088024-ccf52500-c0ba-11eb-92ef-443aa1b6e073.jpg" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.8s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://user-images.githubusercontent.com/55768917/117217375-4dcc4400-adcf-11eb-90f7-b221a3e9fcf4.jpg" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>Pi Mechatronics</h3>
+                          <a class="btn" href="https://user-images.githubusercontent.com/55768917/117217375-4dcc4400-adcf-11eb-90f7-b221a3e9fcf4.jpg" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="1s">
+                  <div class="portfolio-wrap">
+                      <div class="portfolio-img">
+                          <img src="https://user-images.githubusercontent.com/55768917/121969773-fb256680-cd42-11eb-87a1-be67d6938f23.jpg" alt="Image">
+                      </div>
+                      <div class="portfolio-text">
+                          <h3>Image Filter</h3>
+                          <a class="btn" href="https://user-images.githubusercontent.com/55768917/121969773-fb256680-cd42-11eb-87a1-be67d6938f23.jpg" data-lightbox="portfolio">+</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Portfolio End -->
+  
+  <!-- hobbies Start -->
+  <div class="hobbies wow fadeInUp" data-wow-delay="0.1s" id="hobbies">
+      <div class="container">
+          <div class="hobbies-icon">
+              <i class="fa fa-quote-left"></i>
+          </div>
+          <div class="owl-carousel hobbies-carousel">
+              <div class="hobbies-item">
+                  <div class="hobbies-img">
+                      <img src="img/hobbies-1.jpg" alt="Image">
+                  </div>
+                  <div class="hobbies-text">
+                      <p>
+                          I have been on a handful of half-marathons!
+                      </p>
+                      <h3>Running</h3>
+                  </div>
+              </div>
+              <div class="hobbies-item">
+                  <div class="hobbies-img">
+                      <img src="img/hobbies-2.jpg" alt="Image">
+                  </div>
+                  <div class="hobbies-text">
+                      <p>
+                          I often biking on nice sunny days!
+                      </p>
+                      <h3>Biking</h3>
+                  </div>
+              </div>
+              <div class="hobbies-item">
+                  <div class="hobbies-img">
+                      <img src="img/hobbies-3.jpg" alt="Image">
+                  </div>
+                  <div class="hobbies-text">
+                      <p>
+                          I enjoy being active and joining fun group competitions!
+                      </p>
+                      <h3>Competitions</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- hobbies End -->
+
+  <!-- Volunteer Start -->
+  <div class="volunteer" id="volunteer">
+      <div class="container">
+          <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>My volunteer</p>
+              <h2>Current Volunteer Experience</h2>
+          </div>
+          <div class="row">
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                  <div class="volunteer-item">
+                      <div class="volunteer-img">
+                          <img src="img/volunteer-1.jpg" alt="Image">
+                      </div>
+                      <div class="volunteer-text">
+                          <h2>St. John Ambulance</h2>
+                          <h4>Medical First Responder</h4>
+                          <p>
+                            Feb 2016 – ongoing
+                          </p>
+                          <div class="volunteer-social">
+                              <a class="btn" href="https://www.linkedin.com/company/sja-ottawa/"><i class="fab fa-linkedin-in"></i></a>
+                              <a class="btn" href="https://www.sja.ca/en/community-services"><i class="fas fa-globe"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="volunteer-item">
+                      <div class="volunteer-img">
+                          <img src="img/volunteer-2.jpg" alt="Image">
+                      </div>
+                      <div class="volunteer-text">
+                          <h2>Canadian Red Cross</h2>
+                          <h4>Personal Disaster Assistance Team</h4>
+                          <p>
+                            Apr 2018 – ongoing
+                          </p>
+                          <div class="volunteer-social">
+                              <a class="btn" href="https://www.linkedin.com/company/redcrosscanada/"><i class="fab fa-linkedin-in"></i></a>
+                              <a class="btn" href="https://www.redcross.ca/volunteer"><i class="fas fa-globe"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Volunteer End -->
+  
+  <!-- Contact Start -->
+  <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+      <div class="container-fluid">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
+                      <div class="contact-form">
+                          <div id="success"></div>
+                          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                              <div class="control-group">
+                                  <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                  <p class="help-block"></p>
+                              </div>
+                              <div class="control-group">
+                                  <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                  <p class="help-block"></p>
+                              </div>
+                              <div class="control-group">
+                                  <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                  <p class="help-block"></p>
+                              </div>
+                              <div class="control-group">
+                                  <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                  <p class="help-block"></p>
+                              </div>
+                              <div>
+                                  <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Blog Start -->
+  <div class="blog" id="blog">
+      <div class="container">
+          <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>From Blog</p>
+              <h2>Latest Articles</h2>
+          </div>
+          <div class="row">
+              <!-- Article 1 Start -->
+              <div class="col-lg-6">
+                  <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                      <div class="blog-img">
+                          <img src="img/blog-1.jpg" alt="Blog">
+                      </div>
+                      <div class="blog-text">
+                          <h2>Carleton Student Wins Adrian Chan Award for Volunteer and Community Service for Efforts</h2>
+                          <div class="blog-meta">
+                              <p><i class="far fa-user"></i>Matt Gergyek</p>
+                              <p><i class="far fa-list-alt"></i>Volunteer Award</p>
+                              <p><i class="far fa-calendar-alt"></i>26-Apr-2021</p>
+                          </div>
+                          <p>
+                            “Volunteering, at the end of the day, means putting your efforts into something greater than yourself—it’s a calling,” says Trong Nguyen, a student in Carleton University’s Faculty of Engineering and Design. The value of helping others and giving back is a sentiment that runs deep for Nguyen, earning him this year’s Adrian D. C. Chan Award for Volunteer and Community Service.
+                          </p>
+                          <a class="btn" href="https://newsroom.carleton.ca/story/volunteer-community-service-award/">Read More <i class="fa fa-angle-right"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Article 1 End -->
+
+              <!-- Article 2 Start -->
+              <div class="col-lg-6">
+                  <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                      <div class="blog-img">
+                          <img src="img/blog-2.jpg" alt="Blog">
+                      </div>
+                      <div class="blog-text">
+                          <h2>Regulation of glutamate dehydrogenase and lactate dehydrogenase in the freeze tolerant wood frog, Rana sylvatica</h2>
+                          <div class="blog-meta">
+                              <p><i class="far fa-user"></i>Trong Nguyen</p>
+                              <p><i class="far fa-list-alt"></i>Masters Thesis</p>
+                              <p><i class="far fa-calendar-alt"></i>25-Aug-2017</p>
+                          </div>
+                          <p>
+                            Freeze tolerance is a survival strategy used by the wood frog, Rana sylvatica, for winter survival. Drastic changes to physiology and biochemistry are required to enter a state of metabolic rate depression in order to reestablish homeostasis during whole-body freezing. Enzymes are biocatalysts that mediate these metabolic functions and regulate survival of this environmental stress. 
+                          </p>
+                          <a class="btn" href="https://curve.carleton.ca/7dbd92d7-6947-414a-a28f-1553c7808d8c">Read More <i class="fa fa-angle-right"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Article 2 End -->
+
+              <!-- Article 3 Start -->
+              <div class="col-lg-6">
+                <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="blog-img">
+                        <img src="img/blog-3.jpg" alt="Blog">
+                    </div>
+                    <div class="blog-text">
+                        <h2>The Paperless Movement: Less Is More?</h2>
+                          <div class="blog-meta">
+                              <p><i class="far fa-user"></i>Trong Nguyen</p>
+                              <p><i class="far fa-list-alt"></i>Education Development</p>
+                              <p><i class="far fa-calendar-alt"></i>27-Jan-2016</p>
+                          </div>
+                          <p>
+                            New technologies that are integrated effectively can dramatically improve our current ways of teaching. As technological advances evolve, so must the way we go about teaching. Embracing new changes with an open mind allows us to optimize these adjustments to suit the teaching and learning process.
+                          </p>
+                          <a class="btn" href="https://carleton.ca/tasupport/2016/the-paperless-movement-less-is-more/">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!-- Article 3 End -->
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- Blog End -->
+
+  <!-- Footer Start -->
+  <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+          <div class="container">
+              <div class="footer-info">
+                  <h2>Trong Nguyen</h2>
+                  <div class="footer-menu">
+                      <p>Ottawa</p>
+                      <p>Ontario</p>
+                      <p>Canada</p>
+                  </div>
+                  <div class="footer-social">
+                      <a href="https://twitter.com/trong0dn"><i class="fab fa-twitter"></i></a>
+                      <a href="https://github.com/trong0dn"><i class="fab fa-github"></i></a>
+                      <a href="https://www.youtube.com/channel/UCisFyyuGQyco-ZCZHlOJoVw"><i class="fab fa-youtube"></i></a>
+                      <a href="https://www.instagram.com/truly.trong/"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/trongd-nguyen/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="container copyright">
+              <p>&copy; <a href="https://trong0dn.github.io/">trong0dn.github.io</a> | All Right Reserved </a></p>
+          </div>
+      </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to top button -->
+  <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+  <!-- Pre Loader -->
+  <div id="loader" class="show">
+      <div class="loader"></div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
   </body>
 </html>
